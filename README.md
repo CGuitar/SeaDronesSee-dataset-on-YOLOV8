@@ -1,7 +1,9 @@
 # SeaDronesSee数据集在YOLOV8上的部署
 
-数据来源：[SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee/tree/main)
-CSDN上的文章：[SeaDronesSee数据集在YOLOV8上的部署](https://blog.csdn.net/PJ212/article/details/135344900)
+SeaDronesSee数据集为无人机拍摄的海洋救援相关的数据集。目标框有’ignored’, ‘swimmer’, ‘boat’, ‘jetski’, ‘life_saving_appliances’, 'buoy’六个类别。以下内容为为实现该数据集在yoloV8上的部署，进行的预处理与运行测试。
+
++ 数据来源：[SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee/tree/main)
++ CSDN上的文章：[SeaDronesSee数据集在YOLOV8上的部署](https://blog.csdn.net/PJ212/article/details/135344900)
 
 ## 一、数据预处理
 
