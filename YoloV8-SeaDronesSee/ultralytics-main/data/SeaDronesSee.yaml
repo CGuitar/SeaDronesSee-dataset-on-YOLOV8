@@ -1,0 +1,10 @@
+# 图片名称信息路径
+train: ../../data/train.txt
+val: ../../data/val.txt
+test: ../../data/test.txt
+
+# 类别数量
+nc: 6
+
+# 类别名称
+names: ['ignored', 'swimmer', 'boat', 'jetski', 'life_saving_appliances', 'buoy']
