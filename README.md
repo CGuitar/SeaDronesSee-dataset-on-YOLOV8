@@ -1,10 +1,11 @@
 # SeaDronesSee数据集在YOLOV8上的部署
 
-
+数据来源：[SeaDronesSee](https://github.com/Ben93kie/SeaDronesSee/tree/main)
+CSDN上的文章：[SeaDronesSee数据集在YOLOV8上的部署](https://blog.csdn.net/PJ212/article/details/135344900)
 
 ## 一、数据预处理
 
-1. 将Compressed Version中的images和annotations粘贴到data中
+1. 将解压后的Compressed Version中的images和annotations粘贴到data中
 2. 运行data_process.py。将会生成三个txt文件和一个labels文件夹
 3. 把images/test、train、val中的所有图片移动到images下
 
